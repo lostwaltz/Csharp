@@ -71,5 +71,15 @@ namespace TextRpg.Component
 
             return itemList[index];
         }
+
+        public bool FindItemtoItem(Item _item)
+        {
+            foreach(Item? item in itemList)
+            {
+                if(item == _item) return true;
+            }
+
+            return false;
+        }
     }
 }

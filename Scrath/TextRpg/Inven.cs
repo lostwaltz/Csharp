@@ -17,35 +17,6 @@ namespace TextRpg
         public Inven(ItemList itemListDI)
         {
             itemList = itemListDI;
-
-            ItemData itemDataStruct = new ItemData();
-
-            itemDataStruct.itemType = ITEM_TYPE.ITEM_SWORD;
-            itemDataStruct.itemDescription.Append("0 번째 아이템입니다.");
-
-            itemDataStruct.itemName.Append("낡은 검");
-            itemDataStruct.itemStat = 5;
-
-            Item item_00 = new Item(itemDataStruct);
-
-            itemDataStruct.itemName.Clear();
-            itemDataStruct.itemName.Append("스파르타의 창");
-            itemDataStruct.itemStat = 15;
-            itemDataStruct.itemDescription.Clear();
-            itemDataStruct.itemDescription.Append("1 번째 아이템입니다.");
-            Item item_01 = new Item(itemDataStruct);
-
-            itemDataStruct.itemType = ITEM_TYPE.ITEM_ARMOR;
-            itemDataStruct.itemName.Clear();
-            itemDataStruct.itemName.Append("무쇠 갑옷");
-            itemDataStruct.itemStat = 7;
-            itemDataStruct.itemDescription.Clear();
-            itemDataStruct.itemDescription.Append("2 번째 아이템입니다.");
-            Item item_02 = new Item(itemDataStruct);
-
-            itemList.PushItem(item_00);
-            itemList.PushItem(item_01);
-            itemList.PushItem(item_02);
         }
         private ItemList itemList;
 
@@ -101,10 +72,13 @@ namespace TextRpg
 
             return stat;
         }
-
+        public bool FindItemtoItem(Item item)
+        {
+            return itemList.FindItemtoItem(item);
+        }
     }
 
-    public interface IInvenInterface
+    internal interface IInvenInterface
     {
         StringBuilder GetInvenItemListText(bool numberVisuable, bool priceVisualbe);
 
@@ -113,5 +87,7 @@ namespace TextRpg
         void PushFuntion(Action<ITEM_TYPE, int> funtionCallback);
 
         int GetEquipSlotStat(ITEM_TYPE itemType);
+
+        bool FindItemtoItem(Item item);
     }
 }

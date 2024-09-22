@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TextRpg.Component;
+using TextRpg.Scene;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TextRpg
@@ -103,16 +104,44 @@ namespace TextRpg
             playerInvenInterface.SetEquipItemTogle((int)itemIndex);
         }
 
+        public int GetPlayerGold()
+        {
+            return playerStatusData.gold;
+        }
+
+        public void PlayerShopEventCallbackFuntion(Item item, SHOP_SELET_NUM shopSelectNum)
+        {
+            switch (shopSelectNum)
+            {
+                case SHOP_SELET_NUM.SHOP_BUY:
+                    if (true == playerInvenInterface.FindItemtoItem(item))
+                        Console.Write("이미 구매한 아이템입니다.");
+                    else if(playerStatusData.gold >= item.GetItemPrice())
+                        Console.Write("구매를 완료했습니다.");
+                    else
+                        Console.Write("Gold 가 부족합니다.");
+
+                    Thread.Sleep(1000);
+                    break;
+                case SHOP_SELET_NUM.SHOP_SELL:
+                    break;
+            }
+        }
+
         #endregion
     }
 
-    public interface IPlayerInterface
+    internal interface IPlayerInterface
     {
         StringBuilder GetPlaterStatusText();
 
         StringBuilder GetPlayerItemListText(bool numberVisuable, bool priceVisualbe);
 
         void SetEquipItemTogle(int itemIndex);
+
+        int GetPlayerGold();
+
+        void PlayerShopEventCallbackFuntion(Item item, SHOP_SELET_NUM shopSelectNum);
     }
 }
 

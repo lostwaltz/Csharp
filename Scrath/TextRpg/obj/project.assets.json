@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkSpace\\C#\\Scrath\\TextRpg\\TextRpg.csproj",
+      "projectUniqueName": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\TextRpg.csproj",
       "projectName": "TextRpg",
-      "projectPath": "C:\\WorkSpace\\C#\\Scrath\\TextRpg\\TextRpg.csproj",
+      "projectPath": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\TextRpg.csproj",
       "packagesPath": "C:\\Users\\Lostwaltz\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkSpace\\C#\\Scrath\\TextRpg\\obj\\",
+      "outputPath": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lostwaltz\\AppData\\Roaming\\NuGet\\NuGet.Config",

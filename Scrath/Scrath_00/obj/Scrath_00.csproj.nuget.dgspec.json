@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\C#\\Scrath\\Scrath_00\\Scrath_00.csproj": {}
+    "C:\\WorkSpace\\C#\\Csharp\\Scrath\\Scrath_00\\Scrath_00.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\C#\\Scrath\\Scrath_00\\Scrath_00.csproj": {
+    "C:\\WorkSpace\\C#\\Csharp\\Scrath\\Scrath_00\\Scrath_00.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\C#\\Scrath\\Scrath_00\\Scrath_00.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\Scrath_00\\Scrath_00.csproj",
         "projectName": "Scrath_00",
-        "projectPath": "C:\\WorkSpace\\C#\\Scrath\\Scrath_00\\Scrath_00.csproj",
+        "projectPath": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\Scrath_00\\Scrath_00.csproj",
         "packagesPath": "C:\\Users\\Lostwaltz\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\C#\\Scrath\\Scrath_00\\obj\\",
+        "outputPath": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\Scrath_00\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lostwaltz\\AppData\\Roaming\\NuGet\\NuGet.Config",

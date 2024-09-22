@@ -39,18 +39,19 @@ namespace TextRpg.Scene
             if (SceneManager.instance == null)
                 return;
 
-            switch (selectcNumber)
+            if (SceneManager.instance == null)
+                return;
+
+                switch (selectcNumber)
             {
                 case 1:
-                    if (GameManager.instance != null)
-                        SceneManager.instance.SceneChange(SCENE.SCENE_STATUS);
-
+                    SceneManager.instance.SceneChange(SCENE.SCENE_STATUS);
                     break;
                 case 2:
-                    if (GameManager.instance != null)
-                        SceneManager.instance.SceneChange(SCENE.SCENE_INVEN);
+                    SceneManager.instance.SceneChange(SCENE.SCENE_INVEN);
                     break;
                 case 3:
+                    SceneManager.instance.SceneChange(SCENE.SCENE_SHOP);
                     break;
                 case 4:
                     break;
