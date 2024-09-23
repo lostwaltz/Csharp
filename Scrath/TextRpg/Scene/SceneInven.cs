@@ -24,7 +24,7 @@ namespace TextRpg.Scene
         {
             Console.WriteLine(stringBuilder);
 
-            Console.WriteLine(Interface.GetPlayerItemListText(false, false));
+            Console.WriteLine(Interface.GetPlayerItemListText(false, false, false));
             
             Console.WriteLine("1. 장착관리\n0. 나가기\n");
 
@@ -43,7 +43,7 @@ namespace TextRpg.Scene
                 {
                     Console.Clear();
                     Console.WriteLine(stringBuilder);
-                    Console.WriteLine(Interface.GetPlayerItemListText(true, true));
+                    Console.WriteLine(Interface.GetPlayerItemListText(true, false, false));
 
                     Console.Write("0. 나가기\n\n");
                     Console.Write("원하시는 행동을 입력해주세요.\n>> ");

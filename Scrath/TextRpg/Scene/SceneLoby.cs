@@ -18,18 +18,18 @@ namespace TextRpg.Scene
                 "2. 인벤토리\r\n" +
                 "3. 상점\r\n" +
                 "4. 던전입장\r\n" +
-                "5. 휴식하기\r\n\r\n원하시는 행동을 입력해주세요.\r\n>> ");
+                "5. 휴식하기\n" +
+                "6. 저장하기\n\n원하시는 행동을 입력해주세요." +
+                "\r\n>> ");
         }
 
         public override void SceneUpdate()
         {
             Console.Write(stringBuilder);
 
-            string? readLine = Console.ReadLine();
-            if (readLine != "" && null != readLine)
-                selectcNumber = int.Parse(readLine);
+            int.TryParse(Console.ReadLine(), out selectcNumber);
 
-            if (1 > selectcNumber || 5 < selectcNumber)
+            if (1 > selectcNumber || (int)SCENE.SCENE_END < selectcNumber)
             {
                 Console.Write("잘못된 입력입니다.");
                 Thread.Sleep(1000);
@@ -54,8 +54,15 @@ namespace TextRpg.Scene
                     SceneManager.instance.SceneChange(SCENE.SCENE_SHOP);
                     break;
                 case 4:
+                    SceneManager.instance.SceneChange(SCENE.SCENE_DUNGEON);
                     break;
                 case 5:
+                    SceneManager.instance.SceneChange(SCENE.SCENE_REST);
+                    break;
+                case 6:
+                    if (GameManager.instance == null)
+                        return;
+                    GameManager.instance.playerInterface.SavePlayerData();
                     break;
             }
         }

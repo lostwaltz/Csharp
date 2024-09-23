@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-enum SCENE { SCENE_LOBY, SCENE_STATUS, SCENE_INVEN, SCENE_SHOP, SCENE_DUNGEON, SCENE_END }
+enum SCENE { SCENE_LOBY, SCENE_STATUS, SCENE_INVEN, SCENE_SHOP, SCENE_DUNGEON, SCENE_REST, SCENE_END }
 
 
 namespace TextRpg.Scene

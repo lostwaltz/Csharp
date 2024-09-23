@@ -38,7 +38,16 @@ namespace TextRpg.Scene
 
             Console.WriteLine(Interface.GetPlayerGold() + " G\n");
 
-            Console.WriteLine(shopItemList.GetItemListText(false, true));
+            StringBuilder itemListText = shopItemList.GetItemListText(true, true, false, false);
+            if (null == shopItemList)
+                return;
+
+            for (int i = 0; i < shopItemList?.itemListCount; i++)
+            {
+                if (true == Interface.FindItemtoItem(shopItemList?.GetItemtoIndex(i)))
+                    itemListText.Replace(shopItemList?.GetItemtoIndex(i)?.GetItemPrice() + " Gold.", "구매완료");
+            }
+            Console.WriteLine(itemListText);
 
             Console.WriteLine("1. 아이템 구매\n2. 아이템 판매\n0. 나가기\n");
 
@@ -60,15 +69,33 @@ namespace TextRpg.Scene
                     Console.Clear();
                     Console.Write(stringBuilder);
                     Console.WriteLine(Interface.GetPlayerGold() + " G\n");
-                    Console.WriteLine(shopItemList.GetItemListText(true, true));
+
+                    if(preSelectNumber == 1)
+                    {
+                        if (null == shopItemList)
+                            return;
+
+                        itemListText.Clear();
+                        itemListText = shopItemList.GetItemListText(true, true, false, false);
+
+                        for (int i = 0; i < shopItemList?.itemListCount; i++)
+                        {
+                            if(true == Interface.FindItemtoItem(shopItemList?.GetItemtoIndex(i)))
+                                itemListText.Replace(shopItemList?.GetItemtoIndex(i)?.GetItemPrice() + " Gold.", "구매완료");
+                        }
+                        Console.WriteLine(itemListText);
+                    }
+                    else
+                        Console.WriteLine(Interface.GetPlayerItemListText(true, true, true));
+
                     Console.Write("0. 나가기\n\n");
                     Console.Write("원하시는 행동을 입력해주세요.\n>> ");
 
                     int.TryParse(Console.ReadLine(), out selectcNumber);
-                    if (0 == selectcNumber)
+                    if (0 == selectcNumber || null == shopItemList)
                         return;
 
-                    if (0 > selectcNumber || shopItemList.itemListCount < selectcNumber)
+                    if (0 > selectcNumber || (shopItemList.itemListCount < selectcNumber))
                     {
                         Console.Write("잘못된 입력입니다.");
                         Thread.Sleep(1000);
@@ -76,6 +103,17 @@ namespace TextRpg.Scene
                     }
 
                     Item? selectItem = shopItemList.GetItemtoIndex(selectcNumber - 1);
+                    if(2 == preSelectNumber)
+                    {
+                        if(Interface.GetPlayerItemListCount() < selectcNumber)
+                        {
+                            Console.Write("잘못된 입력입니다.");
+                            Thread.Sleep(1000);
+                            return;
+                        }    
+                        selectItem = Interface.GetPlayerItemtoIndex(selectcNumber - 1);
+                    }
+
                     if (null == selectItem)
                         return;
 
@@ -93,34 +131,13 @@ namespace TextRpg.Scene
 
         private void InitItemList()
         {
-            ItemData itemDataStruct = new ItemData();
-
-            itemDataStruct.itemType = ITEM_TYPE.ITEM_SWORD;
-            itemDataStruct.itemDescription.Append("0 번째 아이템입니다.");
-
-            itemDataStruct.itemName.Append("낡은 검");
-            itemDataStruct.itemStat = 5;
-
-            Item item_00 = new Item(itemDataStruct);
-
-            itemDataStruct.itemName.Clear();
-            itemDataStruct.itemName.Append("스파르타의 창");
-            itemDataStruct.itemStat = 15;
-            itemDataStruct.itemDescription.Clear();
-            itemDataStruct.itemDescription.Append("1 번째 아이템입니다.");
-            Item item_01 = new Item(itemDataStruct);
-
-            itemDataStruct.itemType = ITEM_TYPE.ITEM_ARMOR;
-            itemDataStruct.itemName.Clear();
-            itemDataStruct.itemName.Append("무쇠 갑옷");
-            itemDataStruct.itemStat = 7;
-            itemDataStruct.itemDescription.Clear();
-            itemDataStruct.itemDescription.Append("2 번째 아이템입니다.");
-            Item item_02 = new Item(itemDataStruct);
-
-            shopItemList.PushItem(item_00);
-            shopItemList.PushItem(item_01);
-            shopItemList.PushItem(item_02);
+            shopItemList.PushItem(new Item("수련자 갑옷"));
+            shopItemList.PushItem(new Item("무쇠 갑옷"));
+            shopItemList.PushItem(new Item("스파르타의 갑옷"));
+            shopItemList.PushItem(new Item("낡은 검"));
+            shopItemList.PushItem(new Item("청동 도끼"));
+            shopItemList.PushItem(new Item("스파르타의 창"));
+            shopItemList.PushItem(new Item("취업의 돌"));
         }
 
     }

@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scene\\sceneshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scene\\sceneshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\inven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\inven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\component\\itemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\component\\itemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,8 +11,12 @@
       "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scene\\scenestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scene\\scenestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scene\\sceneshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scene\\sceneshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scene\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scene\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scene\\sceneinven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,24 +27,32 @@
       "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scene\\sceneloby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\inven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\inven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scene\\scenestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scene\\scenestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scene\\scenedungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scene\\scenedungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scene\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scene\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|c:\\workspace\\c#\\csharp\\scrath\\textrpg\\scene\\scenedungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A887D23B-9DDD-49E7-BFCD-20239A248F41}|TextRpg\\TextRpg.csproj|solutionrelative:textrpg\\scene\\scenedungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A097E8A5-40B8-4CD7-9574-A4FB3A5E9F13}|SnakeGame\\SnakeGame.csproj|c:\\workspace\\c#\\csharp\\scrath\\snakegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,43 +78,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Inven.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Inven.cs",
               "RelativeDocumentMoniker": "TextRpg\\Inven.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Inven.cs",
               "RelativeToolTip": "TextRpg\\Inven.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAswGcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T08:34:34.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ItemList.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Component\\ItemList.cs",
               "RelativeDocumentMoniker": "TextRpg\\Component\\ItemList.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Component\\ItemList.cs",
               "RelativeToolTip": "TextRpg\\Component\\ItemList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwD8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T04:01:00.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Item.cs",
               "RelativeDocumentMoniker": "TextRpg\\Item.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Item.cs",
               "RelativeToolTip": "TextRpg\\Item.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwDEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T14:05:02.556Z",
               "EditorCaption": ""
@@ -127,119 +127,126 @@
               "RelativeDocumentMoniker": "TextRpg\\GameManager.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\GameManager.cs",
               "RelativeToolTip": "TextRpg\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T12:02:04.15Z"
+              "WhenOpened": "2024-09-19T12:02:04.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Player.cs",
               "RelativeDocumentMoniker": "TextRpg\\Player.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Player.cs",
               "RelativeToolTip": "TextRpg\\Player.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswNwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T11:00:16.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SceneDungeon.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\SceneDungeon.cs",
               "RelativeDocumentMoniker": "TextRpg\\Scene\\SceneDungeon.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\SceneDungeon.cs",
               "RelativeToolTip": "TextRpg\\Scene\\SceneDungeon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T08:41:45.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "SceneInven.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\SceneInven.cs",
               "RelativeDocumentMoniker": "TextRpg\\Scene\\SceneInven.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\SceneInven.cs",
               "RelativeToolTip": "TextRpg\\Scene\\SceneInven.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T08:41:35.602Z"
+              "WhenOpened": "2024-09-19T08:41:35.602Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SceneShop.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\SceneShop.cs",
               "RelativeDocumentMoniker": "TextRpg\\Scene\\SceneShop.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\SceneShop.cs",
               "RelativeToolTip": "TextRpg\\Scene\\SceneShop.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAE0AAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T07:33:10.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SceneStatus.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\SceneStatus.cs",
               "RelativeDocumentMoniker": "TextRpg\\Scene\\SceneStatus.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\SceneStatus.cs",
               "RelativeToolTip": "TextRpg\\Scene\\SceneStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T07:31:26.523Z"
+              "WhenOpened": "2024-09-19T07:31:26.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "SceneLoby.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\SceneLoby.cs",
               "RelativeDocumentMoniker": "TextRpg\\Scene\\SceneLoby.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\SceneLoby.cs",
               "RelativeToolTip": "TextRpg\\Scene\\SceneLoby.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEAAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T07:29:45.387Z"
+              "WhenOpened": "2024-09-19T07:29:45.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "Scene.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\Scene.cs",
               "RelativeDocumentMoniker": "TextRpg\\Scene\\Scene.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Scene\\Scene.cs",
               "RelativeToolTip": "TextRpg\\Scene\\Scene.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T07:24:52.5Z"
+              "WhenOpened": "2024-09-19T07:24:52.5Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SceneManager.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\SceneManager.cs",
               "RelativeDocumentMoniker": "TextRpg\\SceneManager.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\SceneManager.cs",
               "RelativeToolTip": "TextRpg\\SceneManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T06:59:30.213Z"
+              "WhenOpened": "2024-09-19T06:59:30.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Program.cs",
               "RelativeDocumentMoniker": "TextRpg\\Program.cs",
               "ToolTip": "C:\\WorkSpace\\C#\\Csharp\\Scrath\\TextRpg\\Program.cs",
               "RelativeToolTip": "TextRpg\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T02:15:51.426Z"
+              "WhenOpened": "2024-09-19T02:15:51.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -17,7 +17,7 @@ namespace TextRpg.Component
         private Item?[] itemList;
         public int itemListCount { get; private set; } = 0;
 
-        public StringBuilder GetItemListText(bool numberVisuable, bool priceVisuable)
+        public StringBuilder GetItemListText(bool numberVisuable, bool priceVisuable, bool sellPriceVisuable ,bool eqipVisuable)
         {
             StringBuilder stringBuilder = new StringBuilder();
 
@@ -31,10 +31,15 @@ namespace TextRpg.Component
                     if (true == numberVisuable)
                         stringBuilder.AppendFormat("{0}. ", i + 1);
 
-                    stringBuilder.Append(itemList[i]?.PrintItemInfo());
+                    stringBuilder.Append(itemList[i]?.PrintItemInfo(eqipVisuable));
 
                     if (true == priceVisuable)
-                        stringBuilder.AppendFormat("| {0} Gold.", itemList[i]?.GetItemPrice());
+                    {
+                        if(true == sellPriceVisuable)
+                            stringBuilder.AppendFormat("| {0} Gold.", itemList[i]?.GetItemSellPrice());
+                        else
+                            stringBuilder.AppendFormat("| {0} Gold.", itemList[i]?.GetItemPrice());
+                    }
 
                     stringBuilder.Append(" \n");
                 }
@@ -43,7 +48,7 @@ namespace TextRpg.Component
             return stringBuilder;
         }
 
-        public void PushItem(Item item)
+        public bool PushItem(Item item)
         {
             for (int i = 0; i < itemList.Length; i++)
             {
@@ -53,8 +58,9 @@ namespace TextRpg.Component
                 itemList[i] = item;
                 itemListCount++;
 
-                return;
+                return true;
             }
+            return false;
         }
         public void RemoveItem(int index)
         {
@@ -62,6 +68,29 @@ namespace TextRpg.Component
                 itemListCount--;
 
             itemList[index] = null;
+            
+            for(int i = index; i <= itemListCount; i++)
+            {
+                itemList[i] = itemList[i + 1];
+            }
+
+            itemList[itemListCount] = null;
+        }
+        public void RemoveItem(Item item)
+        {
+            int index;
+            FindItemtoItem(item, out index);
+
+            if (itemList[index] != null)
+                itemListCount--;
+
+            itemList[index] = null;
+
+            for (int i = index; i <= itemListCount; i++)
+            {
+                itemList[i] = itemList[i + 1];
+            }
+            itemList[itemListCount] = null;
         }
 
         public Item? GetItemtoIndex(int index)
@@ -72,11 +101,26 @@ namespace TextRpg.Component
             return itemList[index];
         }
 
-        public bool FindItemtoItem(Item _item)
+        public bool FindItemtoItem(Item? _item)
         {
+            if(_item == null) return false;
+
             foreach(Item? item in itemList)
             {
-                if(item == _item) return true;
+                if(item?.itemData.itemName.ToString() == _item.itemData.itemName.ToString()) return true;
+            }
+
+            return false;
+        }
+        public bool FindItemtoItem(Item? _item, out int index)
+        {
+            index = 0;
+            if (_item == null) return false;
+
+            foreach (Item? item in itemList)
+            {
+                if (item == _item) return true;
+                index++;
             }
 
             return false;
