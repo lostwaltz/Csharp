@@ -30,7 +30,8 @@ namespace TextRpg
     }
     internal class Player : IPlayerInterface
     {
-        string path = @"C:\WorkSpace\C#\Csharp\Scrath\TextRpg\SAVE.txt";
+        //string path = @"C:\WorkSpace\C#\Csharp\Scrath\TextRpg\SAVE.txt";
+        string path = @"../../../playerSave.txt";
         private PlayerStatusData playerStatusData;
         private IInvenInterface playerInvenInterface;
 
